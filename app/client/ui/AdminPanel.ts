@@ -115,7 +115,7 @@ Please log in as an administrator.`)),
 
   private _buildMainContentForAdmin(owner: MultiHolder) {
     return [
-      dom.create(AdminSection, t('Support Grist'), [
+      dom.create(AdminSection, t('Support Leslie'), [
         dom.create(AdminSectionItem, {
           id: 'telemetry',
           name: t('Telemetry'),
