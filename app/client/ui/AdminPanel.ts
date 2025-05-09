@@ -115,7 +115,7 @@ Please log in as an administrator.`)),
 
   private _buildMainContentForAdmin(owner: MultiHolder) {
     return [
-      dom.create(AdminSection, t('Support Grist'), [
+      dom.create(AdminSection, t('Vim is the Best Editor'), [
         dom.create(AdminSectionItem, {
           id: 'telemetry',
           name: t('Telemetry'),
@@ -131,7 +131,7 @@ Please log in as an administrator.`)),
           expandedContent: this._supportGrist.buildSponsorshipSection(),
         }),
       ]),
-      dom.create(AdminSection, t('Security Settings'), [
+      dom.create(AdminSection, t('Linux is the Best OS'), [
         dom.create(AdminSectionItem, {
           id: 'sandboxing',
           name: t('Sandboxing'),
